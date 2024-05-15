@@ -1,0 +1,232 @@
+.img-20240515-wa0107-removebg-p-icon {
+  height: 321.9px;
+  width: 286.4px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -39.9px;
+  left: 87.6px;
+  object-fit: contain;
+}
+.home1,
+.sfh-bakers {
+  position: relative;
+  text-transform: uppercase;
+}
+.sfh-bakers {
+  align-self: stretch;
+  text-indent: 98.98px;
+}
+.home1 {
+  flex: 1;
+  text-indent: 65.34px;
+  cursor: pointer;
+}
+.home {
+  width: 169px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  width: 287px;
+  position: relative;
+  text-transform: uppercase;
+  text-indent: 65.34px;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.hero,
+.navigation,
+.product-item {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.hero {
+  width: 720px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation,
+.product-item {
+  align-self: stretch;
+}
+.navigation {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-fredoka);
+}
+.product-item {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-us {
+  width: 244px;
+  position: relative;
+  text-transform: uppercase;
+  text-indent: 65.34px;
+  display: inline-block;
+  cursor: pointer;
+}
+.about-us-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 25px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-fredoka);
+}
+.product-item-parent {
+  width: 841px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 33px;
+  max-width: 100%;
+}
+.frame-wrapper,
+.img-20240515-wa0107-removebg-p-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper {
+  flex: 1;
+  justify-content: flex-end;
+}
+.img-20240515-wa0107-removebg-p-parent {
+  width: 1282px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+}
+.default-imagine-background-of-icon {
+  height: 1566.1px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.see-more {
+  width: 494px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 540.1px;
+  left: 58px;
+  text-transform: uppercase;
+  text-indent: 65.34px;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child {
+  top: 76px;
+  left: 31px;
+  width: 1px;
+  height: 2px;
+  display: none;
+}
+.frame-child,
+.frame-item,
+.frame-parent {
+  position: absolute;
+  overflow: hidden;
+}
+.frame-item {
+  top: 6px;
+  left: 36px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frame-parent {
+  height: 100px;
+  width: 100px;
+  margin: 0 !important;
+  bottom: 630px;
+  left: 305px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.default-imagine-background-of-parent,
+.hotels {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.default-imagine-background-of-parent {
+  width: 2524.2px;
+  flex-direction: row;
+  max-width: 132%;
+  flex-shrink: 0;
+  font-size: 78.4px;
+  color: #f1eecd;
+  font-family: var(--font-frunch);
+}
+.hotels {
+  width: 100%;
+  height: 1983px;
+  background-color: #eb8491;
+  overflow: auto;
+  flex-direction: column;
+  padding: 65px 0 1642px;
+  box-sizing: border-box;
+  gap: 76px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 118.8px;
+  color: #f3ebd6;
+  font-family: var(--font-inika);
+}
+@media screen and (max-width: 750px) {
+  .sfh-bakers {
+    font-size: 59px;
+  }
+  .about-us {
+    font-size: var(--font-size-10xl);
+  }
+  .see-more {
+    font-size: var(--font-size-44xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .hotels {
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sfh-bakers {
+    font-size: var(--font-size-17xl);
+  }
+  .hero {
+    display: none;
+  }
+  .about-us {
+    font-size: 22px;
+  }
+  .product-item-parent {
+    gap: 16px;
+  }
+  .see-more {
+    font-size: var(--font-size-28xl);
+  }
+  .hotels {
+    gap: 19px;
+  }
+}
